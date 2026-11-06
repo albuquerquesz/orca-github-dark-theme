@@ -1,0 +1,30 @@
+{
+  "manifestVersion": 2,
+  "id": "github-dark-theme",
+  "name": "GitHub Dark for Orca",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "A dark application theme inspired by GitHub's default dark palette, with matching terminal colors.",
+  "license": "MIT",
+  "repository": "https://github.com/albuquerquesz/orca-github-dark-theme",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "github-dark",
+        "title": "GitHub Dark",
+        "path": "themes/github-dark.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "github-dark",
+        "title": "GitHub Dark",
+        "path": "terminal/github-dark.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
