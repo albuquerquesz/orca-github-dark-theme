@@ -20,7 +20,7 @@ The repository is the source. It is not in the community catalog until both of t
 land on the default branch's release commit:
 
 ```sh
-git tag -a v1.0.1 -m v1.0.1 && git push origin v1.0.1
+git tag -a v1.0.2 -m v1.0.2 && git push origin v1.0.2
 gh repo edit albuquerquesz/orca-github-dark-theme --add-topic orca-plugin
 ```
 
