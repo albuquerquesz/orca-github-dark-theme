@@ -20,12 +20,12 @@ The repository is the source. It is not in the community catalog until both of t
 land on the default branch's release commit:
 
 ```sh
-git tag -a v1.0.0 -m v1.0.0 && git push origin v1.0.0
+git tag -a v1.0.1 -m v1.0.1 && git push origin v1.0.1
 gh repo edit albuquerquesz/orca-github-dark-theme --add-topic orca-plugin
 ```
 
-The tag must match `version` in `orca-plugin.json`. If the palette changes after a
-preview, bump that version and tag the new commit instead. The listing then shows up at
+The tag must match `version` in `orca-plugin.json`. Bump the version before tagging
+again. The listing is at
 https://www.onorca.dev/plugins/albuquerquesz/orca-github-dark-theme.
 
 ## Attribution
