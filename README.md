@@ -5,17 +5,14 @@ A dark application theme inspired by GitHub's default dark palette, with matchin
 Select **GitHub Dark** in Appearance settings for the app and in terminal theme settings
 for matching ANSI colors. Includes syntax colors for source files and Markdown.
 
-The page is GitHub's canvas (`#0d1117`). Cards, muted surfaces and the sidebar use the
-inset chrome (`#010409`), the same step the light theme takes with `#f6f8fa`. Secondary
-controls use `#282e33`, lifted off that chrome by about the same amount GitHub Light
-uses `#d8dee4` on `#f6f8fa`, so buttons such as **AI Fix** stay visible, including their
-translucent hover state. The secondary foreground stays `#e6edf3`.
+The interface sits on a neutral gray, lighter than GitHub's blue-black canvas.
+The page and the editor are `#1e1e1e`. Cards, muted surfaces and the sidebar are
+`#262626`. Secondary controls use `#333333`, so buttons such as **AI Fix** stay
+visible on those panels, including their translucent hover state. Selection is
+`#404040`, the same gray family, instead of GitHub's blue wash. Body text is `#e6e6e6`.
 
-Muted text uses `#9198a1` rather than Primer's `#8b949e`. On the secondary surface that
-comment gray is 4.47:1, just under 4.5:1; `#9198a1` clears it (4.7:1) and still reads as
-secondary text on the page and on inset chrome. The primary button is `#1f6feb` with
-white text: GitHub's brighter accent `#2f81f7` is only 3.8:1 against white, so it stays
-the cursor and link hue, not the button fill.
+Muted text uses `#9e9e9e`, which clears 4.5:1 on the secondary surface. The primary
+button stays `#1f6feb` with white text. Syntax colors stay the GitHub Dark Default set.
 
 ## Release
 
