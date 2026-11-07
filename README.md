@@ -14,13 +14,18 @@ visible on those panels, including their translucent hover state. Selection is
 Muted text uses `#9e9e9e`, which clears 4.5:1 on the secondary surface. The primary
 button stays `#1f6feb` with white text. Syntax colors stay the GitHub Dark Default set.
 
+Chat uses the same gray step: your messages sit on `#333333`, links are `#58a6ff`,
+and added or removed lines use `#3fb950` and `#ff7b72`. Orca paints code blocks inside
+chat with its own VS Code Dark+ highlighter, not this theme's syntax list, so those
+snippets keep that built-in coloring on the chat canvas.
+
 ## Release
 
 The repository is the source. It is not in the community catalog until both of these
 land on the default branch's release commit:
 
 ```sh
-git tag -a v1.0.3 -m v1.0.3 && git push origin v1.0.3
+git tag -a v1.0.4 -m v1.0.4 && git push origin v1.0.4
 gh repo edit albuquerquesz/orca-github-dark-theme --add-topic orca-plugin
 ```
 

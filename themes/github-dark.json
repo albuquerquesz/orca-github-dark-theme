@@ -24,7 +24,18 @@
     "--sidebar-accent": "#404040",
     "--sidebar-accent-foreground": "#e6e6e6",
     "--sidebar-border": "#3a3a3a",
-    "--sidebar-ring": "#1f6feb"
+    "--sidebar-ring": "#1f6feb",
+    "--chat-user-message": "#333333",
+    "--text-link": "#58a6ff",
+    "--diff-added": "#3fb950",
+    "--diff-removed": "#ff7b72",
+    "--git-decoration-added": "#3fb950",
+    "--git-decoration-modified": "#d29922",
+    "--git-decoration-deleted": "#ff7b72",
+    "--git-decoration-renamed": "#58a6ff",
+    "--git-decoration-untracked": "#3fb950",
+    "--git-decoration-copied": "#58a6ff",
+    "--git-decoration-ignored": "#6e7681"
   },
   "tokenColors": [
     {
