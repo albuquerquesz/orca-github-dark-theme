@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "github-dark-theme",
   "name": "GitHub Dark for Orca",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "execution": "data",
   "description": "A GitHub Dark theme for Orca with a lighter neutral gray interface and matching terminal colors.",
   "license": "MIT",
@@ -26,5 +26,9 @@
       }
     ]
   },
-  "capabilities": []
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "GitHub Dark theme in Orca, framed on a light background with the adapted gray palette and syntax colors"
+  }
 }
